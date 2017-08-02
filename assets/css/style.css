@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'Monday-Light';
+  src: url('../fonts/Monday-LightWEB.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Monday-LightWEB.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Monday-LightWEB.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/Monday-LightWEB.woff') format('woff'), /* Pretty Modern Browsers */
+}
+
+body {
+  font-family: Monday-Light, serif;
+}
+
 .header {
   background-image: url(../img/background.jpg);
   background-size: cover;
@@ -15,11 +27,11 @@
 
 .header__content h1 {
   font-size: 32px;
-  font-weight: normal;
   color: #fff;
   letter-spacing: 0.2px;
   line-height: 40px;
   margin: 37px 0 0;
+  font-weight: 100;
 }
 
 .main {
@@ -39,8 +51,9 @@
   font-size: 32px;
   color: #262626;
   letter-spacing: 0.2px;
-  line-height: 40px;
+  line-height: 45px;
   margin: 0;
+  font-weight: 100;
 }
 
 .main__content a {
