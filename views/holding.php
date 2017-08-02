@@ -16,7 +16,7 @@
 
 	<link rel="stylesheet" href="<?php echo plugins_url( 'assets/css/style.css', dirname( __FILE__ ) ); ?>">
 
-	<title>Site Coming Soon</title>
+	<title>Forward is an insights-driven strategic consultancy</title>
 </head>
 
 <body>
