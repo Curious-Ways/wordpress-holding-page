@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="<?php echo plugins_url( 'assets/css/normalise.css', dirname( __FILE__ ) ); ?>">
 	<link rel="stylesheet" href="<?php echo plugins_url( 'assets/css/style.css', dirname( __FILE__ ) ); ?>">
 
-	<title>Forward is an insights-driven strategic consultancy</title>
+	<title>Page Title</title>
 </head>
 
 <body>
@@ -25,13 +25,13 @@
 <header class="header">
   <div class="header__content">
     <img src="<?php echo plugins_url( 'assets/img/logo.png', dirname( __FILE__ ) ); ?>" alt="Logo">
-    <h1>Forward is an insights-driven strategic consultancy</h1>
+    <h1>Page Title</h1>
   </div>
 </header>
 
 <main class="main">
   <div class="main__content">
-    <p>We'd love to hear from you at <a href="mailto:hello@alwaysbeforward.com">hello@alwaysbeforward.com</a></p>
+    <p>Email us here <a href="mailto:hello@backtofront.london">hello@backtofront.london</a></p>
   </div>
 </main>
 
