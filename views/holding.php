@@ -23,22 +23,18 @@
 <body>
 
 <header class="header">
-
   <div class="header__content">
-
     <img src="<?php echo plugins_url( 'assets/img/logo.png', dirname( __FILE__ ) ); ?>" alt="Logo">
-
-    <h2>Forward is an insights-driven strategic consultancy</h2>
-
+    <h1>Forward is an insights-driven strategic consultancy</h1>
   </div>
-
 </header>
 
 <main class="main">
-
-  <p>We'd love to hear from you at <a href="mailto:hello@alwaysbeforward.com">hello@alwaysbeforward.com</a></p>
-
+  <div class="main__content">
+    <p>We'd love to hear from you at <a href="mailto:hello@alwaysbeforward.com">hello@alwaysbeforward.com</a></p>
+  </div>
 </main>
 
+<script type="text/javascript" src="<?php echo plugins_url( 'inc/retina-1.3.0/retina.min.js', dirname( __FILE__ ) ); ?>"></script>
 </body>
 </html>

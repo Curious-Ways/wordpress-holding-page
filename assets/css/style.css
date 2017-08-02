@@ -8,11 +8,46 @@
   align-items: center;
 }
 
-  .header__content {
-    margin: auto;
-    text-align: center;
-  }
+.header__content {
+  margin: auto;
+  text-align: center;
+}
+
+.header__content h1 {
+  font-size: 32px;
+  color: #fff;
+  letter-spacing: 0.2px;
+  line-height: 40px;  
+}
 
 .main {
+  background-color: #fff;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.main__content {
+  margin: auto;
+  text-align: center;
+}
+
+.main__content p {
+  font-size: 32px;
+  color: #262626;
+  letter-spacing: 0.2px;
+  line-height: 40px;
+}
+
+.main__content a {
+  display: block;
+  border-bottom: 1px solid #FF8F7A;
+  text-decoration: none;
+  line-height: 1;
+}
+
+.main__content a:link,
+.main__content a:visited {
+  color: #262626;
 }
