@@ -21,7 +21,19 @@
 
 <body>
 
+<header class="header">
 
+  <img src="<?php echo plugins_url( 'assets/img/logo.png', dirname( __FILE__ ) ); ?>" alt="Logo">
+
+  <h2>Forward is an insights-driven strategic consultancy</h2>
+
+</header>
+
+<main class="main">
+
+  <p>We'd love to hear from you at <a href="mailto:hello@alwaysbeforward.com">hello@alwaysbeforward.com</a></p>
+
+</main>
 
 </body>
 </html>
