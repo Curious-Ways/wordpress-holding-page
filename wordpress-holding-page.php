@@ -26,8 +26,8 @@ function ng_maintenance_mode() {
 	if ( $pagenow !== 'wp-login.php' && ! current_user_can( 'manage_options' ) && ! is_admin() ) {
 		header( $_SERVER["SERVER_PROTOCOL"] . ' 503 Service Temporarily Unavailable', true, 503 );
 		header( 'Content-Type: text/html; charset=utf-8' );
-		if ( file_exists( plugin_dir_path( __FILE__ ) . 'views/maintenance.php' ) ) {
-			require_once( plugin_dir_path( __FILE__ ) . 'views/maintenance.php' );
+		if ( file_exists( plugin_dir_path( __FILE__ ) . 'views/holding.php' ) ) {
+			require_once( plugin_dir_path( __FILE__ ) . 'views/holding.php' );
 		}
 		die();
 	}
