@@ -24,9 +24,13 @@
 
 <header class="header">
 
-  <img src="<?php echo plugins_url( 'assets/img/logo.png', dirname( __FILE__ ) ); ?>" alt="Logo">
+  <div class="header__content">
 
-  <h2>Forward is an insights-driven strategic consultancy</h2>
+    <img src="<?php echo plugins_url( 'assets/img/logo.png', dirname( __FILE__ ) ); ?>" alt="Logo">
+
+    <h2>Forward is an insights-driven strategic consultancy</h2>
+
+  </div>
 
 </header>
 

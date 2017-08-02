@@ -1,0 +1,18 @@
+.header {
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  background-position: 50%;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  .header__content {
+    margin: auto;
+    text-align: center;
+  }
+
+.main {
+
+}
