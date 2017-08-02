@@ -15,9 +15,11 @@
 
 .header__content h1 {
   font-size: 32px;
+  font-weight: normal;
   color: #fff;
   letter-spacing: 0.2px;
-  line-height: 40px;  
+  line-height: 40px;
+  margin: 37px 0 0;
 }
 
 .main {
@@ -38,6 +40,7 @@
   color: #262626;
   letter-spacing: 0.2px;
   line-height: 40px;
+  margin: 0;
 }
 
 .main__content a {
